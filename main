@@ -208,22 +208,22 @@ def main():
                 print()
 
     # Print the summary
-    EP_d20_table = print_summary(times, [item[0] for item in fitness_obj1_d20], [item[0] for item in fitness_obj2_d20])
-    EP_d50_table = print_summary(times, [item[0] for item in fitness_obj1_d50], [item[0] for item in fitness_obj2_d50])
-    ES_d20_table = print_summary(times, [item[1] for item in fitness_obj1_d20], [item[1] for item in fitness_obj2_d20])
-    ES_d50_table = print_summary(times, [item[1] for item in fitness_obj1_d50], [item[1] for item in fitness_obj2_d50])
+    PSO_d20_table = print_summary(times, [item[0] for item in fitness_obj1_d20], [item[0] for item in fitness_obj2_d20])
+    PSO_d20_table = print_summary(times, [item[0] for item in fitness_obj1_d50], [item[0] for item in fitness_obj2_d50])
+    DE_d20_table = print_summary(times, [item[1] for item in fitness_obj1_d20], [item[1] for item in fitness_obj2_d20])
+    DE_d50_table = print_summary(times, [item[1] for item in fitness_obj1_d50], [item[1] for item in fitness_obj2_d50])
 
-    print("EP: Objective function 1, Dimension 20")
-    print(EP_d20_table)
+    print("PSO: Objective function 1, Dimension 20")
+    print(PSO_d20_table)
     print()
-    print("EP: Objective function 1, Dimension 50")
-    print(EP_d50_table)
+    print("PSO: Objective function 1, Dimension 50")
+    print(PSO_d20_table)
     print()
-    print("EP: Objective function 2, Dimension 20")
-    print(ES_d20_table)
+    print("DE: Objective function 2, Dimension 20")
+    print(DE_d20_table)
     print()
-    print("EP: Objective function 2, Dimension 50")
-    print(ES_d50_table)
+    print("DE: Objective function 2, Dimension 50")
+    print(DE_d50_table)
     
     
                 
